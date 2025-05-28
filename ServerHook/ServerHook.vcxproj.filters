@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\ndlog">
+      <UniqueIdentifier>{57f5964e-6cac-4de5-bca1-762fc7a34942}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -33,15 +36,42 @@
     <ClInclude Include="packets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="exthook.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vietsub.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ndlog.h">
+      <Filter>Source Files\ndlog</Filter>
+    </ClInclude>
+    <ClInclude Include="NDGM.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="ndclient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CLimitSingleInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exthook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vietsub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ndlog.cpp">
+      <Filter>Source Files\ndlog</Filter>
+    </ClCompile>
+    <ClCompile Include="NDGM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
